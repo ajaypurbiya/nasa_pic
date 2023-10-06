@@ -1,1 +1,40 @@
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#current-image-container{
+    /* border: 2px solid red; */
+    width: 70%;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+#current-image-container img{
+    width: 100%;
+}
+
+.title{
+    font-size: 22px;
+    font-weight: 700;
+}
+.main-container{
+    /* border: 2px solid blue; */
+    width: 74%;
+    margin: 30px auto;
+}
+
+#search-history{
+    list-style-type: none;   /* To remove points*/
+    padding: 0;
+}
+
+#search-history li{
+    cursor: pointer;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    color: blue;
+}
